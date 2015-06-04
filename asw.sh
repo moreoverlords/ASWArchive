@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 for i in `seq $1 $2`
 do
     html=`curl "http://www.asofterworld.com/index.php?id=$i"`;
